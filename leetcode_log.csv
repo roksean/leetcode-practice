@@ -1,3 +1,4 @@
 problem_name,problem_difficulty,problem_category,date,comments
 
 two_sum,easy,array_and_hashing,2025-08-05,"unorderd_map is like a hashmap, better than map because O(1) lookups vs O(logn), static_cast<int> is used to change size_t to int, which the function requires "
+contains_duplicate,easy,array_and_hashing,2025-08-12,"use unordered_set for O(1) inserts and lookups. it's set up as a hashtable, instead of a red-black tree for normal sets. "
